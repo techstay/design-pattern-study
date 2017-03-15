@@ -1,6 +1,7 @@
 package yitian.study;
 
 
+import yitian.study.abstractfactory.AbstractFactorySample;
 import yitian.study.factory.FactorySample;
 
 public class Application {
@@ -9,5 +10,9 @@ public class Application {
         System.out.println("工厂模式");
         Sample factorySample = new FactorySample();
         factorySample.run();
+
+        System.out.println("抽象工厂模式");
+        Sample abstractFactorySample = new AbstractFactorySample();
+        abstractFactorySample.run();
     }
 }
