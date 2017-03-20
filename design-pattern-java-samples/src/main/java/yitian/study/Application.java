@@ -2,6 +2,7 @@ package yitian.study;
 
 
 import yitian.study.abstractfactory.AbstractFactorySample;
+import yitian.study.adapter.AdapterSample;
 import yitian.study.builder.BuilderSample;
 import yitian.study.factory.FactorySample;
 import yitian.study.prototype.PrototypeSample;
@@ -24,5 +25,9 @@ public class Application {
         System.out.println("原型模式");
         Sample prototypeSample = new PrototypeSample();
         prototypeSample.run();
+
+        System.out.println("适配器模式");
+        Sample adapterSample = new AdapterSample();
+        adapterSample.run();
     }
 }
