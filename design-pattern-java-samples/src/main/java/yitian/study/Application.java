@@ -6,6 +6,7 @@ import yitian.study.adapter.AdapterSample;
 import yitian.study.bridge.BridgeSample;
 import yitian.study.builder.BuilderSample;
 import yitian.study.composite.CompositeSample;
+import yitian.study.decorator.DecoratorSample;
 import yitian.study.factory.FactorySample;
 import yitian.study.filter.FilterSample;
 import yitian.study.prototype.PrototypeSample;
@@ -44,5 +45,9 @@ public class Application {
         System.out.println("组合模式");
         Sample compositeSample=new CompositeSample();
         compositeSample.run();
+
+        System.out.println("装饰器模式");
+        Sample decoratorSample=new DecoratorSample();
+        decoratorSample.run();
     }
 }
