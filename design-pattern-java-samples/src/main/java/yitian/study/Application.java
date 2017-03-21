@@ -5,6 +5,7 @@ import yitian.study.abstractfactory.AbstractFactorySample;
 import yitian.study.adapter.AdapterSample;
 import yitian.study.bridge.BridgeSample;
 import yitian.study.builder.BuilderSample;
+import yitian.study.composite.CompositeSample;
 import yitian.study.factory.FactorySample;
 import yitian.study.filter.FilterSample;
 import yitian.study.prototype.PrototypeSample;
@@ -39,5 +40,9 @@ public class Application {
         System.out.println("过滤器模式");
         Sample filterSample=new FilterSample();
         filterSample.run();
+
+        System.out.println("组合模式");
+        Sample compositeSample=new CompositeSample();
+        compositeSample.run();
     }
 }
