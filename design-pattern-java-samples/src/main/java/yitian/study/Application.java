@@ -10,6 +10,7 @@ import yitian.study.decorator.DecoratorSample;
 import yitian.study.facade.FacadeSample;
 import yitian.study.factory.FactorySample;
 import yitian.study.filter.FilterSample;
+import yitian.study.flyweight.FlyWeightSample;
 import yitian.study.prototype.PrototypeSample;
 
 public class Application {
@@ -54,5 +55,9 @@ public class Application {
         System.out.println("外观模式");
         Sample facadeSample=new FacadeSample();
         facadeSample.run();
+
+        System.out.println("享元模式");
+        Sample flyweightSample=new FlyWeightSample();
+        flyweightSample.run();
     }
 }
