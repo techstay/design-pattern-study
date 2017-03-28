@@ -12,6 +12,7 @@ import yitian.study.factory.FactorySample;
 import yitian.study.filter.FilterSample;
 import yitian.study.flyweight.FlyWeightSample;
 import yitian.study.prototype.PrototypeSample;
+import yitian.study.proxy.ProxySample;
 
 public class Application {
     public static void main(String[] args) {
@@ -41,23 +42,27 @@ public class Application {
         bridgeSample.run();
 
         System.out.println("过滤器模式");
-        Sample filterSample=new FilterSample();
+        Sample filterSample = new FilterSample();
         filterSample.run();
 
         System.out.println("组合模式");
-        Sample compositeSample=new CompositeSample();
+        Sample compositeSample = new CompositeSample();
         compositeSample.run();
 
         System.out.println("装饰器模式");
-        Sample decoratorSample=new DecoratorSample();
+        Sample decoratorSample = new DecoratorSample();
         decoratorSample.run();
 
         System.out.println("外观模式");
-        Sample facadeSample=new FacadeSample();
+        Sample facadeSample = new FacadeSample();
         facadeSample.run();
 
         System.out.println("享元模式");
-        Sample flyweightSample=new FlyWeightSample();
+        Sample flyweightSample = new FlyWeightSample();
         flyweightSample.run();
+
+        System.out.println("代理模式");
+        Sample proxySample = new ProxySample();
+        proxySample.run();
     }
 }
