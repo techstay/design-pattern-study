@@ -6,6 +6,7 @@ import yitian.study.adapter.AdapterSample;
 import yitian.study.bridge.BridgeSample;
 import yitian.study.builder.BuilderSample;
 import yitian.study.chainofresponsability.ChainOfResponsabilitySample;
+import yitian.study.command.CommandSample;
 import yitian.study.composite.CompositeSample;
 import yitian.study.decorator.DecoratorSample;
 import yitian.study.facade.FacadeSample;
@@ -69,5 +70,9 @@ public class Application {
         System.out.println("责任链模式");
         Sample chainOfResponsibilitySample=new ChainOfResponsabilitySample();
         chainOfResponsibilitySample.run();
+
+        System.out.println("命令模式");
+        Sample commandSample=new CommandSample();
+        commandSample.run();
     }
 }
