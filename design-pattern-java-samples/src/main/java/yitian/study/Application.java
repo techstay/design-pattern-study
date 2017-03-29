@@ -13,6 +13,7 @@ import yitian.study.facade.FacadeSample;
 import yitian.study.factory.FactorySample;
 import yitian.study.filter.FilterSample;
 import yitian.study.flyweight.FlyWeightSample;
+import yitian.study.interpreter.InterpreterSample;
 import yitian.study.prototype.PrototypeSample;
 import yitian.study.proxy.ProxySample;
 
@@ -74,5 +75,9 @@ public class Application {
         System.out.println("命令模式");
         Sample commandSample=new CommandSample();
         commandSample.run();
+
+        System.out.println("解释器模式");
+        Sample interpreterSample=new InterpreterSample();
+        interpreterSample.run();
     }
 }
