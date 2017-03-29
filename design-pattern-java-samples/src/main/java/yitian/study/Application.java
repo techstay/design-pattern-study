@@ -13,6 +13,7 @@ import yitian.study.facade.FacadeSample;
 import yitian.study.factory.FactorySample;
 import yitian.study.filter.FilterSample;
 import yitian.study.flyweight.FlyWeightSample;
+import yitian.study.interator.IteratorSample;
 import yitian.study.interpreter.InterpreterSample;
 import yitian.study.prototype.PrototypeSample;
 import yitian.study.proxy.ProxySample;
@@ -79,5 +80,9 @@ public class Application {
         System.out.println("解释器模式");
         Sample interpreterSample=new InterpreterSample();
         interpreterSample.run();
+
+        System.out.println("迭代器模式");
+        Sample iteratorSample=new IteratorSample();
+        iteratorSample.run();
     }
 }
