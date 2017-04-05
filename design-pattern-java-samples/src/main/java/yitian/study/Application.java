@@ -16,6 +16,7 @@ import yitian.study.flyweight.FlyWeightSample;
 import yitian.study.interator.IteratorSample;
 import yitian.study.interpreter.InterpreterSample;
 import yitian.study.mediator.MediatorSample;
+import yitian.study.memento.MementoSample;
 import yitian.study.prototype.PrototypeSample;
 import yitian.study.proxy.ProxySample;
 
@@ -89,5 +90,9 @@ public class Application {
         System.out.println("中介者模式");
         Sample mediatorSample=new MediatorSample();
         mediatorSample.run();
+
+        System.out.println("备忘录模式");
+        Sample mementoSample=new MementoSample();
+        mementoSample.run();
     }
 }
