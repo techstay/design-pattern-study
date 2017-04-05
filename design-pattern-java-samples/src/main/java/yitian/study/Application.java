@@ -20,6 +20,7 @@ import yitian.study.memento.MementoSample;
 import yitian.study.observer.ObserverSample;
 import yitian.study.prototype.PrototypeSample;
 import yitian.study.proxy.ProxySample;
+import yitian.study.state.StateSample;
 
 public class Application {
     public static void main(String[] args) {
@@ -99,5 +100,9 @@ public class Application {
         System.out.println("观察者模式");
         Sample observerSample=new ObserverSample();
         observerSample.run();
+
+        System.out.println("状态模式");
+        Sample stateSample=new StateSample();
+        stateSample.run();
     }
 }
