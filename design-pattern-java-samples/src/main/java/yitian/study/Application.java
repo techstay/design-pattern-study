@@ -22,6 +22,7 @@ import yitian.study.prototype.PrototypeSample;
 import yitian.study.proxy.ProxySample;
 import yitian.study.state.StateSample;
 import yitian.study.strategy.StrategySample;
+import yitian.study.template.TemplateSample;
 
 public class Application {
     public static void main(String[] args) {
@@ -109,5 +110,9 @@ public class Application {
         System.out.println("策略模式");
         Sample strategySample=new StrategySample();
         strategySample.run();
+
+        System.out.println("模板模式");
+        Sample templateSample=new TemplateSample();
+        templateSample.run();
     }
 }
