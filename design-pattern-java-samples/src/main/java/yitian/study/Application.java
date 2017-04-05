@@ -23,6 +23,7 @@ import yitian.study.proxy.ProxySample;
 import yitian.study.state.StateSample;
 import yitian.study.strategy.StrategySample;
 import yitian.study.template.TemplateSample;
+import yitian.study.visitor.VisitorSample;
 
 public class Application {
     public static void main(String[] args) {
@@ -114,5 +115,9 @@ public class Application {
         System.out.println("模板模式");
         Sample templateSample=new TemplateSample();
         templateSample.run();
+
+        System.out.println("访问者模式");
+        Sample visitorSample=new VisitorSample();
+        visitorSample.run();
     }
 }
