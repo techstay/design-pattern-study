@@ -17,6 +17,7 @@ import yitian.study.interator.IteratorSample;
 import yitian.study.interpreter.InterpreterSample;
 import yitian.study.mediator.MediatorSample;
 import yitian.study.memento.MementoSample;
+import yitian.study.observer.ObserverSample;
 import yitian.study.prototype.PrototypeSample;
 import yitian.study.proxy.ProxySample;
 
@@ -94,5 +95,9 @@ public class Application {
         System.out.println("备忘录模式");
         Sample mementoSample=new MementoSample();
         mementoSample.run();
+
+        System.out.println("观察者模式");
+        Sample observerSample=new ObserverSample();
+        observerSample.run();
     }
 }
